@@ -1,0 +1,52 @@
+body {
+  font-family: arial, Helvetica, sans-serif;
+  background: url(../img/sobre-background.jpg);
+}
+
+#container {
+  margin: auto;
+  width: 940px;
+}
+
+header h1 a{
+  height: 134px;
+  width: 130px;
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/logo_GK.png);
+  margin-left: 40px;
+}
+
+h2 {
+  border-bottom: #353b48 2px solid;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+figure {
+  background-color: #f2eded;
+  border: #9c88ff 1px solid;
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 15px;
+  padding: 0px 45px;
+  line-height: 1.5em;
+}
+
+figure#centro‐distribuicao {
+  margin: 0px auto;
+  width: 550px;
+}
+
+figure#familia-teles {
+  float: right;
+  padding-right: 10px;
+}
