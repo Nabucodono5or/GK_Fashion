@@ -62,9 +62,9 @@ figure#familia-teles {
   padding-right: 10px;
 }
 
-ul li{
+ul li {
   margin-top: 15px;
-  margin-right: 60px;
+  margin-left: 60px;
 }
 
 a {
@@ -122,4 +122,5 @@ footer img {
 
 .social li {
   display: inline;
+  margin-left: 4px;
 }
