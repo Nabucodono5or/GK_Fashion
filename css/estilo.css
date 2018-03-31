@@ -86,15 +86,19 @@ footer {
 footer img {
   vertical-align: middle;
   margin-left: 30px;
+  margin-right: 20px;
 }
 
-/*
+.caixa-footer {
+  position: relative;
+  padding: 20px;
+}
+
 .social {
-  position: absolute;
   top: 30px;
   right: 20px;
+  position: absolute;
 }
-*/
 
 .social a {
   height: 32px;
@@ -116,15 +120,6 @@ footer img {
   background-position: 0 0;
 }
 
-
-/*
-.caixa-footer {
-  position: relative;
-  padding: 20px;
-}
-
-.social ul li {
+.social li {
   display: inline;
 }
-
-*/
