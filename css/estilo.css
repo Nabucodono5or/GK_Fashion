@@ -124,3 +124,46 @@ footer img {
   display: inline;
   margin-left: 4px;
 }
+
+/* CSS para index */
+header {
+  position: relative;
+}
+
+.sacola {
+  background: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  text-align: right;
+  width: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menu‐principal {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu‐principal ul li {
+  float: left;
+}
+
+.menu‐principal ul li a {
+  display: block;
+  padding: 8px;
+  color: #50846f;
+}
+
+.menu‐principal ul li a:hover {
+  color: #e84393;
+  text-decoration: none;
+}
+
+.busca, #menu‐departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+}
