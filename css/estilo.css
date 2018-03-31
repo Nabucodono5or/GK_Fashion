@@ -88,23 +88,36 @@ footer img {
   margin-left: 30px;
 }
 
+/*
 .social {
   position: absolute;
   top: 30px;
   right: 20px;
 }
+*/
 
 .social a {
   height: 32px;
   width: 32px;
   display: inline-block;
   text-indent: -9999px;
+  background-image: url("../img/sociais.png");
 }
 
-.social a[href*="facebook.com"] {
-  background-image: url(../img/sociais.png) 0 0 no-repeat;
+.social li a[href*="facebook.com"] {
+  background-position: 0 0;
 }
 
+.social li a[href*="twitter.com"] {
+  background-position: 0 0;
+}
+
+.social li a[href*="plus.google.com"] {
+  background-position: 0 0;
+}
+
+
+/*
 .caixa-footer {
   position: relative;
   padding: 20px;
@@ -113,3 +126,5 @@ footer img {
 .social ul li {
   display: inline;
 }
+
+*/
