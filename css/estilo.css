@@ -149,6 +149,7 @@ header {
 
 .menu‐principal ul li {
   float: left;
+  margin: 6px;
 }
 
 .menu‐principal ul li a {
