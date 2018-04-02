@@ -38,18 +38,19 @@
               <input id="email" type="email" size="30" maxlength="60" placeholder="exemplo@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
             </fieldset>
 
-            <fieldset><legend>Motivo</legend>
-              <select class="" name="">
-                <option>Sugestão</option>
-                <option>Crítica</option>
-                <option>Elogio</option>
-                <option>Outros</option>
+            <fieldset>
+              <label for="motivo">Motivo : </label>
+              <select id="motivo">
+                <option value="Sugestao">Sugestão</option>
+                <option value="critica">Crítica</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Outros">Outros</option>
               </select>
-
             </fieldset>
 
-            <fieldset><legend>Comentários</legend>
-              <textarea name="name" rows="8" cols="80" value="">
+            <fieldset>
+              <label for="cometario">Comentários : </label><br>
+              <textarea id="cometario" name="name" rows="8" cols="80" value="">
               </textarea>
             </fieldset>
 
