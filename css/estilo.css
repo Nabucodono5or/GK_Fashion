@@ -265,11 +265,12 @@ header {
   avaliar valores do painel
 */
 .painel ol li {
-  display: inline;
+  display: inline-block;
   vertical-align: top;
   width: 140px;
   margin: 2px;
   padding-bottom: 10px;
+  transition-duration: 700ms;
 
   /*transição 0.7s com ease‐in    */
 
@@ -277,9 +278,34 @@ header {
 .painel li:hover {
   box-shadow: 0 0 5px #999;
   background-color: rgba(255, 255, 255, 0.8);
+  transition-duration: 700ms;
+  transition-timing-function: ease-in;
+  transform: scale(1.2) rotate(-5deg);
 
   /*
   Dar zoom com transform com scale(1.2) e rotate(‐5deg)
-  transição 0.7s com ease‐in  
+  transição 0.7s com ease‐in
   */
+}
+
+.painel img:hover {
+}
+
+.painel h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.painel a {
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+}
+
+.painel figure, .painel figcaption {
+  width: 140px;
+  padding: 0;
+  margin: 0;
 }
