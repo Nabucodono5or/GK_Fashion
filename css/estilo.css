@@ -230,6 +230,10 @@ header {
   padding-right: 3px;
 }
 
+.caixa {
+  clear: both;
+}
+
 .painel {
   margin: 10px 0px;
   padding: 10px;
