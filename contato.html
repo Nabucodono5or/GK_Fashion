@@ -2,14 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta lang="pt-br">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>GK Fashion | Home</title>
   </head>
   <body>
     <div id="container">
-      <header>
+      <header id="cabecalho">
+        <h1><a href="index.html">GK Fashion</a></h1>
+        <p class="sacola">Nenhum item na sacola de compras </p>
+
+        <nav class="menu‐principal">
+          <ul>
+            <li> <a href="#"> Sua Conta </a> </li>
+            <li> <a href="#"> Lista de Desejos </a> </li>
+            <li> <a href="#"> Cartão Fidelidade </a> </li>
+            <li> <a href="sobre.html"> Sobre </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
+          </ul>
+        </nav>
       </header>
 
       <main id="main">
+        <section id="contato">
+          <h2>Entre em contato:</h2>
+          <form class="" action="index.html" method="post">
+            <fieldset>
+
+              <label for="nome">Nome : </label>
+              <input id="nome" type="text" size="30" maxlength="60" placeholder="Nome" autofocus pattern="[a-z\s]+$">
+              <br>
+
+              <label for="email">Email : </label>
+              <input id="email" type="email" size="30" maxlength="60" placeholder="exemplo@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </fieldset>
+
+            <fieldset><legend>Motivo</legend>
+              <select class="" name="">
+                <option>Sugestão</option>
+                <option>Crítica</option>
+                <option>Elogio</option>
+                <option>Outros</option>
+              </select>
+
+            </fieldset>
+
+            <fieldset><legend>Comentários</legend>
+              <textarea name="name" rows="8" cols="80" value="">
+              </textarea>
+            </fieldset>
+
+            <input id="submit" type="submit" value="Enviar">
+          </form>
+
+        </section>
       </main>
 
       <section id="historia">
@@ -17,6 +64,17 @@
 
       <section id="diferenciais">
       </section>
+
+      <footer>
+        <div class="caixa-footer">
+          <img src="img/logo_rodape.png" alt="logo rodape" title="logo rodape">&copy; Copyright GK Fashion
+          <ul class="social">
+            <li> <a href="http://www.facebook.com/gkfashion">Facebook</a> </li>
+            <li> <a href="http://www.twitter.com/gkfashion">Twitter</a> </li>
+            <li> <a href="http://plus.google.com/gkfashion">Google+</a> </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
