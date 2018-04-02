@@ -105,7 +105,106 @@
 
 }
 
-
 @media (min-width: 321px) and (max-width: 480px) {
+
+  #container {
+    width: 100%;
+  }
+
+  .menu‐principal {
+    position: static;
+  }
+
+  .menu‐principal ul li {
+    margin: 6px;
+  }
+
+  /* index */
+
+  .caixa img {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .busca, .menu‐departamentos {
+    margin: 10px;
+  }
+
+  .painel {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .painel ol {
+    text-align: center;
+  }
+
+  .novidades, .mais-vendidos{
+    margin-top: 10px;
+    float: none;
+    width: 90%;
+  }
+
+  /* footer */
+  footer img {
+    margin: 10px;
+  }
+
+  footer span {
+    margin: 20px 0;
+  }
+
+  .social {
+    top: 30px;
+    right: 20px;
+    position: static;
+    text-align: center;
+  }
+
+  /* SOBRE.HTML */
+  nav {
+    margin-bottom: 100px;
+  }
+
+
+  figure#centro‐distribuicao {
+    margin: 30px auto;
+    width: 90%;
+  }
+
+  #centro‐distribuicao img {
+    width: 90%;
+  }
+
+  figure#familia-teles {
+    float: none;
+    width: 90%;
+  }
+
+  figure#familia-teles img{
+    width: 90%;
+  }
+
+
+  figure {
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  /*cartão fidelidade*/
+  .box-1 {
+    grid-template-columns: 100%;
+    width: 90%;
+  }
+
+  /*cartão fidelidade*/
+  #contato {
+    width: 100%;
+  }
+
+  .formulario {
+    width: 90%;
+    padding: 5px;
+  }
 
 }
